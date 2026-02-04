@@ -33,7 +33,7 @@ public class PessoasPanel extends JFrame {
         btnEliminarPessoa = new JButton("Eliminar Pessoa");
 
         // criar tabela
-        String[] colunas = {"Id", "Nome","Salario"};
+        String[] colunas = {"Id", "Nome", "Salario"};
         tabela = new DefaultTableModel(colunas, 0);
         tabelaPessoas = new JTable(tabela);
         tabelaPessoas.setSelectionMode(ListSelectionModel.SINGLE_SELECTION); // só permite selecionar 1 linha

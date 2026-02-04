@@ -5,17 +5,17 @@ package model;
 public class Pessoa {
     private int id;
     private String nome;
-    private float salario;
+    private double salario;
 
     // construtor com id
-    public Pessoa(int id, String nome, float salario) {
+    public Pessoa(int id, String nome, double salario) {
         this.id = id;
         this.nome = nome;
         this.salario = salario;
     }
 
     // contrutor sem id
-    public Pessoa(String nome, float salario) {
+    public Pessoa(String nome, double salario) {
         this.nome = nome;
         this.salario = salario;
     }
@@ -37,7 +37,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public float getSalario() {
+    public double getSalario() {
         return salario;
     }
 
